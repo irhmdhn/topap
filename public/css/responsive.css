@@ -1,0 +1,28 @@
+@media (max-width: 576px){
+    .col{
+        padding: 0.4rem;
+    }
+    .card{
+        width: auto;
+        height: auto;
+        /* height: 184px; */
+        /* padding-bottom: 10px; */
+    }
+    .card img{
+        width: auto;
+        height: auto;
+    }
+
+}
+@media (min-width: 992px) {
+    .sidebar .offcanvas-lg {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 48px;  
+    }
+}
+@media (max-width: 992px) {
+    .offcanvas-lg.offcanvas-end{
+        width: 12rem; 
+    } 
+}

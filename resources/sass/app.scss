@@ -1,0 +1,33 @@
+$body-color : #f5f5f5;
+// $body-bg    : #100B12;
+
+$primary    : #00B3FF;
+$secondary  : #8D8D8D;
+$success    : #48FE4F;
+$danger     : #ff0055;
+$warning    : #DEFE48;
+$info       : #48E8FE;
+$light      : #f5f5f5;
+$dark       : #100B12; 
+$purple     : #7F83FF; 
+
+
+
+:root{
+    --primary   : #00B3FF;
+    --secondary : #8D8D8D;
+    --success   : #48FE4F;
+    --danger    : #ff0055;
+    --warning   : #DEFE48;
+    --info      : #48E8FE;
+    --light     : #f5f5f5;
+    --dark      : #100B12; 
+    
+    --purple    : #7F83FF; 
+
+    --transparent: rgba(255, 255, 255, 0.04);
+    --transparent-hover: rgba(255, 255, 255, 0.07);
+    --transparent-active: rgba(255, 255, 255, 0.1);
+};
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
